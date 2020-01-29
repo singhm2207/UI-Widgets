@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Manish</title>
+</head>
+<body>
+    <section id="prepareGame">
+        <div id="title">
+            <h1>Prepare Game..</h1>
+        </div>
+        <div onsubmit="getSnakesInfo()" id="getSnakesInfo">
+            <div id="noofsnakes">
+                No of Snakes: <input type="text" id> 
+            </div>
+            <div class="head">
+                Head: <input type="text">
+            </div>
+            <div class="tail">
+                Tail: <input type="text">
+            </div>
+            <div class="submitBtn">
+                <button>Submit</button>
+            </div>
+        </div>
+        <form onsubmit="getLadderInfo()" id="getLadderInfo">
+            <div id="noofladders">
+                No of Ladders: <input type="text"> 
+            </div>
+            <div class="head">
+                Head: <input type="text">
+            </div>
+            <div class="tail">
+                Tail: <input type="text">
+            </div>
+            <div class="submitBtn">
+                <button>Submit</button>
+            </div>
+        </form>
+        <form onsubmit="getPlayersInfo()" id="getLadderInfo">
+            <div id="noofplayers">
+                No of Players: <input type="text"> 
+            </div>
+            <div class="head">
+                Name: <input type="text">
+            </div>
+            <div class="submitBtn">
+                <button>Submit</button>
+            </div>
+        </form>
+    </section>
+    
+    <script src="../JAVASCRIPT/snakeAndLadder.js"></script>
+</body>
+</html>
